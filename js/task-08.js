@@ -10,7 +10,7 @@ function onFormSubmit(event) {
     if (formData.email === '' || formData.password === '') {
         return alert('Заповніть поля!');
     }
-    console.lof(formData);
+    console.log(formData);
  
     event.currentTarget.reset();
 };
